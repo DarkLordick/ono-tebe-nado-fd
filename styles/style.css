@@ -13,7 +13,6 @@ body {
 }
 
 /* .header__menu {
-  
 } */
 
 .header__links-list {
@@ -58,8 +57,6 @@ body {
 }
 
 .header__address {
-  /* font-family: Raleway;
-  font-weight: normal; */
   font-size: 18px;
   font-style: normal;
   margin-right: 36px;
@@ -80,7 +77,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
-  /* padding: 0 50px 50px; */
 }
 
 .overlay {
@@ -156,7 +152,6 @@ body {
   color: #fff;
   font-weight: 500;
   font-size: 22px;
-  /* word-spacing: 20px; */
   text-transform: uppercase;
   background: none;
   border: 1px solid white;
@@ -170,7 +165,6 @@ body {
 /* //// */
 
 .lots {
-  /* display: flex; */
   margin: 0 24px 120px;
 }
 
@@ -182,15 +176,12 @@ body {
 }
 
 .lots__card-list {
-  /* width: 1052px;
-  height: 723px; */
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto-fit repit(3, 1fr);
   grid-template-rows: 1fr;
   column-gap: 25px;
   margin-bottom: 30px;
-  /* grid-template-columns: repeat(auto-fit, minmax(334px, 1fr)); */
 }
 
 .lots__card-list-item {
@@ -329,7 +320,6 @@ font-weight: 400;
 line-height: 24px;
 }
 
-/* Вы можете использовать и другие классы, если они вам понадобятся. */
 /* footer */
 
 .footer {
@@ -344,8 +334,8 @@ line-height: 24px;
   justify-self: start;
 } 
 
-.footer__menu {
-}
+/* .footer__menu {
+} */
 
 .footer__menu-list {
   display: grid;
@@ -382,12 +372,11 @@ border-bottom: 1px solid black;
   gap: 48px;
 }
 
-.footer__social-list-item {
-  
-}
+/* .footer__social-list-item {
+} */
 
-.footer__social-link {
-}
+/* .footer__social-link {
+} */
 
 .footer__social-icon {
   width: 48px;
